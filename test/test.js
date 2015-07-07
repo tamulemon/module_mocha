@@ -1,6 +1,6 @@
 var greet = require('../greet'),
 		expect = require('chai').expect,
-		name = process.argv[2];
+		name = process.argv[2] || name;
 
 
 // testing cases for 1. passing name variable to the func. 2. passing variable from command line
