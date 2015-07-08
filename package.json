@@ -1,0 +1,21 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "gulp test",
+  "main": "greet.js",
+  "directories": {
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Meng Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2"
+  },
+	"dependencies": {
+		"gulp": "*"
+	}
+	
+}
