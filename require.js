@@ -1,5 +1,9 @@
-var greet = require('./greet.js'),
-		name = process.argv[2] || name;
+// command line utility
+function clu() {
+	var greet = require('./greet.js');
+	var result = greet(process.argv[2]);
+	process.stdout.write(result);
+	return result;
+}
 
-// write to command line 
-process.stdout.write(greet(name));
+module.exports = clu;
